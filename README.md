@@ -16,6 +16,7 @@ npm install --save react-native-twitter-sdk
 Download and add Twitter Kit to your project:
 * Download [Twitter Kit](https://ton.twimg.com/syndication/twitterkit/ios/3.3.0/Twitter-Kit-iOS.zip) and unzip under `~/Documents/TwitterSDK` directory on your Mac.
 * Drag contents to the root of your project in Xcode
+* Make sure that `~/Documents/TwitterSDK` is in the Framework Search Path of your build target's Build Settings.
 
 In XCode, in the project navigator:
 
