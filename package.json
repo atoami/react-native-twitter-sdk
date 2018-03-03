@@ -1,0 +1,37 @@
+{
+  "name": "react-native-twitter-sdk",
+  "version": "0.1.0",
+  "description": "Twitter SDK support for React Native apps.",
+  "main": "./js/index.js",
+  "author": {
+    "name": "David Bala <b.david6008@gmail.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdavid68/react-native-twitter-sdk.git"
+  },
+  "homepage": "https://github.com/bdavid68/react-native-twitter-sdk/",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "twitter",
+    "core"
+  ],
+  "license": "Twitter Platform License",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "fastfall": "^1.5.1",
+    "got": "^7.0.0",
+    "plist": "^2.1.0",
+    "progress": "^2.0.0",
+    "pump": "^1.0.2",
+    "xcode": "^0.9.3"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.44.0",
+    "prop-types": "15.x.x"
+  }
+}
