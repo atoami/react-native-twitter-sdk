@@ -30,8 +30,6 @@ In XCode, in the project navigator, select your project.
 * Add TwitterKit to "Embedded Binaries" in your Xcode project settings
 * Add TwitterKit and TwitterCore to "Linked Frameworks and Libraries" in your Xcode project settings
 
-### Configure Info.Plist
-
 ## Usage
 
 Complete the following steps.
