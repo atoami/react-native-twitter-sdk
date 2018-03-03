@@ -2,7 +2,7 @@
 //  RNTwitterSDKLoginManager.m
 //  RNTwitterSDKLoginManager
 //
-//  Created by JustHive on 03/03/2018.
+//  Created by David Bala on 03/03/2018.
 //  Copyright © 2018 Muso. All rights reserved.
 //
 
