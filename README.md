@@ -30,7 +30,14 @@ In XCode, in the project navigator, select your project.
 * Add TwitterKit to "Embedded Binaries" in your Xcode project settings
 * Add TwitterKit and TwitterCore to "Linked Frameworks and Libraries" in your Xcode project settings
 
+### Configure Info.Plist
+
 ## Usage
+
+Complete the following steps.
+1. [Initialize Twitter Kit](https://github.com/twitter/twitter-kit-ios/wiki/Installation#initialize-twitter-kit)
+2. [Configure Info.Plist](https://github.com/twitter/twitter-kit-ios/wiki/Installation#configure-infoplist)
+3. [Handling Log in Redirect](https://github.com/twitter/twitter-kit-ios/wiki/Log-In-With-Twitter#handling-log-in-redirect)
 
 ```
 import { TwitterLoginManager } from 'react-native-twitter-sdk';
