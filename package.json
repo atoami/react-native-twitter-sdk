@@ -20,7 +20,7 @@
     "twitter",
     "core"
   ],
-  "license": "Twitter Platform License",
+  "license": "MIT License",
   "dependencies": {
     "adm-zip": "^0.4.7",
     "fastfall": "^1.5.1",
