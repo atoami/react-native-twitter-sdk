@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		4F8626BE204A390D007BF816 /* RNTwitterSDKLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8626BD204A390D007BF816 /* RNTwitterSDKLoginManager.m */; };
 		4F8626BF204A390D007BF816 /* RNTwitterSDKLoginManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8626BC204A390D007BF816 /* RNTwitterSDKLoginManager.h */; };
-		4F8626FD204A6B6B007BF816 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8626FB204A6B6B007BF816 /* TwitterKit.framework */; };
-		4F8626FE204A6B6B007BF816 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8626FC204A6B6B007BF816 /* TwitterCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,8 +28,6 @@
 		4F8626B9204A390D007BF816 /* libRNTwitterSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTwitterSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8626BC204A390D007BF816 /* RNTwitterSDKLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTwitterSDKLoginManager.h; sourceTree = "<group>"; };
 		4F8626BD204A390D007BF816 /* RNTwitterSDKLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTwitterSDKLoginManager.m; sourceTree = "<group>"; };
-		4F8626FB204A6B6B007BF816 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = ../../../../../Users/justhive/Documents/TwitterSDK/TwitterKit.framework; sourceTree = "<group>"; };
-		4F8626FC204A6B6B007BF816 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = ../../../../../Users/justhive/Documents/TwitterSDK/TwitterCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8626FD204A6B6B007BF816 /* TwitterKit.framework in Frameworks */,
-				4F8626FE204A6B6B007BF816 /* TwitterCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +60,6 @@
 		4F8626BB204A390D007BF816 /* RNTwitterSDK */ = {
 			isa = PBXGroup;
 			children = (
-				4F8626F8204A6B42007BF816 /* Frameworks */,
 				4F8626D0204A396B007BF816 /* login */,
 			);
 			path = RNTwitterSDK;
@@ -79,15 +72,6 @@
 				4F8626BD204A390D007BF816 /* RNTwitterSDKLoginManager.m */,
 			);
 			path = login;
-			sourceTree = "<group>";
-		};
-		4F8626F8204A6B42007BF816 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4F8626FC204A6B6B007BF816 /* TwitterCore.framework */,
-				4F8626FB204A6B6B007BF816 /* TwitterKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +249,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"~/Documents/TwitterSDK",
+					"$(SRCROOT)/../../../ios/TwitterSDK",
 					"$(PROJECT_DIR)/../../../ios/Frameworks",
 					"$(PROJECT_DIR)/../../../ios/Pods",
 				);
@@ -286,6 +271,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"~/Documents/TwitterSDK",
+					"$(SRCROOT)/../../../ios/TwitterSDK",
 					"$(PROJECT_DIR)/../../../ios/Frameworks",
 					"$(PROJECT_DIR)/../../../ios/Pods",
 				);
