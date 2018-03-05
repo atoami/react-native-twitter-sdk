@@ -10,4 +10,7 @@ module.exports = {
   get TwitterLoginManager() {
     return require('./TwitterLoginManager');
   },
+  get TwitterRequestManager() {
+    return require('./TwitterRequestManager');
+  },
 };

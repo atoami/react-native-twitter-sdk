@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F8626BE204A390D007BF816 /* RNTwitterSDKLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8626BD204A390D007BF816 /* RNTwitterSDKLoginManager.m */; };
 		4F8626BF204A390D007BF816 /* RNTwitterSDKLoginManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8626BC204A390D007BF816 /* RNTwitterSDKLoginManager.h */; };
+		4FC4408D204D0173002E1152 /* RNTwitterSDKRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4408C204D0173002E1152 /* RNTwitterSDKRequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		4F8626B9204A390D007BF816 /* libRNTwitterSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTwitterSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8626BC204A390D007BF816 /* RNTwitterSDKLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTwitterSDKLoginManager.h; sourceTree = "<group>"; };
 		4F8626BD204A390D007BF816 /* RNTwitterSDKLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTwitterSDKLoginManager.m; sourceTree = "<group>"; };
+		4FC4408B204D0173002E1152 /* RNTwitterSDKRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTwitterSDKRequestManager.h; sourceTree = "<group>"; };
+		4FC4408C204D0173002E1152 /* RNTwitterSDKRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTwitterSDKRequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		4F8626BB204A390D007BF816 /* RNTwitterSDK */ = {
 			isa = PBXGroup;
 			children = (
+				4FC4408A204D011E002E1152 /* core */,
 				4F8626D0204A396B007BF816 /* login */,
 			);
 			path = RNTwitterSDK;
@@ -72,6 +76,15 @@
 				4F8626BD204A390D007BF816 /* RNTwitterSDKLoginManager.m */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		4FC4408A204D011E002E1152 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				4FC4408B204D0173002E1152 /* RNTwitterSDKRequestManager.h */,
+				4FC4408C204D0173002E1152 /* RNTwitterSDKRequestManager.m */,
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC4408D204D0173002E1152 /* RNTwitterSDKRequestManager.m in Sources */,
 				4F8626BE204A390D007BF816 /* RNTwitterSDKLoginManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

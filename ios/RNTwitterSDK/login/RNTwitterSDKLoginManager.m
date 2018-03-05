@@ -42,7 +42,7 @@ RCT_EXPORT_METHOD(logOut)
 {
     [[Twitter sharedInstance] logInWithCompletion:^(TWTRSession * _Nullable session, NSError * _Nullable error) {
         if (error) {
-            reject(@"TwitterSDK", @"Login Failed", error);
+            reject(@"TwitterSDK", @"Login Error", error);
         } else {
             resolve(RCTBuildResultDictionary(session));
         }
