@@ -248,14 +248,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 					"~/Documents/TwitterSDK",
 					"$(SRCROOT)/../../../ios/TwitterSDK",
-					"$(PROJECT_DIR)/../../../ios/Frameworks",
-					"$(PROJECT_DIR)/../../../ios/Pods",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../ios/TwitterSDK/TwitterCore",
+					"$(SRCROOT)/../../../ios/TwitterSDK/TwitterKit",
+					"$(SRCROOT)/../../../ios",
+					"$(SRCROOT)/../../../ios/TwitterKit",
+					"$(SRCROOT)/../../../ios/TwitterCore",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,14 +274,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 					"~/Documents/TwitterSDK",
 					"$(SRCROOT)/../../../ios/TwitterSDK",
-					"$(PROJECT_DIR)/../../../ios/Frameworks",
-					"$(PROJECT_DIR)/../../../ios/Pods",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../ios/TwitterSDK/TwitterCore",
+					"$(SRCROOT)/../../../ios/TwitterSDK/TwitterKit",
+					"$(SRCROOT)/../../../ios",
+					"$(SRCROOT)/../../../ios/TwitterKit",
+					"$(SRCROOT)/../../../ios/TwitterCore",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
