@@ -2,7 +2,7 @@
 //  RNTwitterSDKRequestManager.m
 //  RNTwitterSDK
 //
-//  Created by David Bala on 05/03/2018.
+//  Created by Droid on 05/03/2018.
 //  Copyright © 2018 Muso. All rights reserved.
 //
 
