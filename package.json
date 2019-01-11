@@ -1,6 +1,6 @@
 {
   "name": "react-native-twitter-sdk",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Twitter SDK support for React Native apps.",
   "main": "./js/index.js",
   "author": {
