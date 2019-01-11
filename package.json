@@ -4,13 +4,13 @@
   "description": "Twitter SDK support for React Native apps.",
   "main": "./js/index.js",
   "author": {
-    "name": "BBDroid <st.bbdroid@gmail.com>"
+    "name": "Ato"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bbdroid/react-native-twitter-sdk.git"
+    "url": "git+https://github.com/atoami/react-native-twitter-sdk.git"
   },
-  "homepage": "https://github.com/bbdroid/react-native-twitter-sdk/",
+  "homepage": "https://github.com/atoami/react-native-twitter-sdk/",
   "keywords": [
     "react",
     "react-native",

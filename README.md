@@ -48,7 +48,7 @@ TwitterLoginManager.logIn()
 
 ## Copyright and license
 
-Code released under [the MIT license](https://github.com/bdavid68/react-native-twitter-sdk/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/atoami/react-native-twitter-sdk/blob/master/LICENSE).
 
 ## Inspiration
 
